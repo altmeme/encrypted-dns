@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Cloudflare (Resolver for Firefox) DNS over HTTPS</string>
+		<key>PayloadOrganization</key>
+		<string>encrypted-dns.party</string>
+		<key>PayloadDescription</key>
+		<string>This profile enables Cloudflare (Resolver for Firefox) DNS over HTTPS on all networks using the iOS 14 / iPadOS 14 / tvOS 14 / macOS Big Sur Encrypted DNS feature.
+
+Downloaded from encrypted-dns.party.</string>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>Privacy policy:
+https://wiki.mozilla.org/Security/DOH-resolver-policy</string>
+		</dict>
+		<key>PayloadIdentifier</key>
+		<string>f7baeea3-2ca1-4147-8986-df9d74995619</string>
+		<key>PayloadScope</key>
+		<string>User</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>ebad767c-21fe-4ce4-9066-abc0fb476799</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>1.1.1.1</string>
+						<string>2606:4700:4700::1111</string>
+						<string>1.0.0.1</string>
+						<string>2606:4700:4700::1001</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://mozilla.cloudflare-dns.com/dns-query</string>
+				</dict>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadIdentifier</key>
+				<string>ef565b09-e380-4877-b931-d3575ec66c9e</string>
+				<key>PayloadUUID</key>
+				<string>f3186e2e-0c57-4e99-9ed5-9230a9b61cb9</string>
+				<key>PayloadDisplayName</key>
+				<string>Cloudflare (Resolver for Firefox) DNS over HTTPS</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</plist>
