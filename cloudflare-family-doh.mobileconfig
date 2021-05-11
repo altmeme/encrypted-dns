@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadDisplayName</key>
+		<string>Cloudflare (Family) DNS over HTTPS</string>
+		<key>PayloadOrganization</key>
+		<string>encrypted-dns.party</string>
+		<key>PayloadDescription</key>
+		<string>This profile enables Cloudflare (Family) DNS over HTTPS on all networks using the iOS 14 / iPadOS 14 / tvOS 14 / macOS Big Sur Encrypted DNS feature.
+
+Downloaded from encrypted-dns.party.</string>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>Privacy policy:
+https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver</string>
+		</dict>
+		<key>PayloadIdentifier</key>
+		<string>c97d73a1-044b-4f81-999e-80c6e6595ba2</string>
+		<key>PayloadScope</key>
+		<string>User</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>08514db4-242a-4c3e-ae8f-a976245c688e</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerAddresses</key>
+					<array>
+						<string>1.1.1.3</string>
+						<string>2606:4700:4700::1113</string>
+						<string>1.0.0.3</string>
+						<string>2606:4700:4700::1003</string>
+					</array>
+					<key>ServerURL</key>
+					<string>https://family.cloudflare-dns.com/dns-query</string>
+				</dict>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadIdentifier</key>
+				<string>566189fa-7e23-47b2-9955-d2704f5a152f</string>
+				<key>PayloadUUID</key>
+				<string>03544c9f-de0d-4951-a9aa-e909919f234e</string>
+				<key>PayloadDisplayName</key>
+				<string>Cloudflare (Family) DNS over HTTPS</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+	</dict>
+</plist>
