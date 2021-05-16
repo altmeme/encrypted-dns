@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>HTTPS</string>
+<key>ServerAddresses</key>
+<array>
+<string>2a10:50c0::ad1:ff</string>
+<string>2a10:50c0::ad2:ff</string>
+<string>1.0.0.1</string>
+<string>1.1.1.1</string>
+</array>
+<key>ServerURL</key>
+<string>https://dns.adguard.com/dns-query</string>
+</dict>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>WiFi</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>Cellular</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Disconnect</string>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>Configures device to use AdGuard Encrypted DNS over HTTPS</string>
+<key>PayloadDisplayName</key>
+<string>AdGuard DNS over HTTPS</string>
+<key>PayloadIdentifier</key>
+<string>com.apple.dnsSettings.managed.602f4a02-b86a-4d24-9bce-42c5758f43f8</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>389dbce3-66ad-4864-a167-d8a5e106f593</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>ProhibitDisablement</key>
+<false/>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>Adds different encrypted DNS configurations to Big Sur and iOS 14 based systems</string>
+<key>PayloadDisplayName</key>
+<string>Encrypted DNS (DoH, DoT)</string>
+<key>PayloadIdentifier</key>
+<string>com.notjakob.apple-dns.bcd45319-21f6-4348-88b2-ef9d1106a9bd</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>4af6da63-7269-4c1b-bb6c-34ce4aabb13a</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>
